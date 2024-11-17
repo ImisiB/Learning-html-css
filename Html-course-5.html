@@ -5,26 +5,50 @@
   </head>
   <body>
     <style>
-      .video-title{
+      p{
         font-family: arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      
+      .video-title{
         font-size: 18px;
         font-weight: bold;
         width: 300px;
         line-height: 24px;
-        margin-bottom: 5;
+        margin-bottom: 5px;
       }
       .video-stats{
-        font-family: arial;
         font-size: 14px;
         color: rgb(96, 96, 96);
-        margin-top: 0;
-        margin: 0, 0;
+        margin-bottom: 20px;
       }
       .video-author{
-        font-family: arial;
         font-size: 14px;
         color: rgb(96, 96, 96);
-        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      .video-description{
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 280px;
+        line-height: 22px;
+        margin-bottom: 100px;
+      }
+      .apple-text{
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 22px;
+        padding-bottom: 22px;
+      }
+      .span{
+        color: red;
+      }
+      .span:hover{
+        text-decoration: underline;
       }
     </style>
   
@@ -40,8 +64,16 @@
       Marques Brownlee &#10003;
     </p>
 
-    <p class="">
+    <p class="video-description">
       Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from google's CEO. Shoutout to Sundar! 
+    </p>
+
+    <p class="apple-text">
+      Stop early for the best selection of holiday favorite. Shop now &#62;
+    </p>
+  
+    <p class="">
+      Stop early for the <strong>best selection</strong> of <u>holiday</u>favorite. <span class="span">Shop now</span>&#62;
     </p>
   </body>
 </html>
