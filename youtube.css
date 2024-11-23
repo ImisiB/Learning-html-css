@@ -5,9 +5,8 @@
 .search-bar{
   display: block;
 }
-
 .video-title{
-
+  margin-top: 0;
 }
 .video-stats
 .video-author{
@@ -20,6 +19,20 @@
   margin-right: 15px;
   display: inline-block;
 }
-.mini-tube{ 
+.channel-picture{ 
   display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info{
+  display: inline-block;
+  width: 200px;
+}
+.profile-pic{
+  width: 100%;
+  border-radius: 40px;
+}
+.thumb-1{
+  margin-bottom: 12px;
 }
