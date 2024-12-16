@@ -1,9 +1,6 @@
 .img-1{
   width: 100%;
 }
-.search-bar{
-  display: block;
-}
 .video-title{
   margin-top: 0;
   font-size: 14px;
@@ -26,11 +23,7 @@
 .thumb-1{
   margin-bottom: 12px;
 }
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 .video-author{
   margin-bottom: 4px;
 }
