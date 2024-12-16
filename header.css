@@ -44,10 +44,11 @@
   border: 1px, solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgb(0, 0, 0 ,0.05);
+  width: 0;
 }
-.search-bar::placeholder{
-  font-family: Roboto, Arial;
-  font-size: 16px;
+.search-bar::placeholder{ 
+  font-size: 15px;
+  font-weight: 300;
 }
 .voice-search-button{
   height: 40px;
@@ -60,26 +61,23 @@
   margin-top: 4px;
 }
 .right-section{
-  background-color: lightblue;
   width: 200px;
-  background-color: gray;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 .upload-icon{
   height: 24px;
-  border-left: ;
-  border-right: ;
 }
 .youtube-apps-icon{
   height: 24px;
-  border-right: ;
 }
 .notifications-icon{
   height: 24px;
-  border-right: ;
 }
-.current-user-pictures{
-  height: 24px;
-  border-right: ;
+.current-user-picture{
+  height: 32px;
+  border-radius: 16px;
 }
