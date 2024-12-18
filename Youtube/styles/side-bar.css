@@ -1,26 +1,11 @@
 .sidebar{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
   position: fixed;
   left: 0;
   bottom: 0;
   top: 55px;
   background-color: white;
   width: 72px;
-}
-.library-icon{
-
-}
-.youtube-music-icon{
-
-}
-.original-icon{
-
-}
-.subscriptions-icon{
-
-}
-.explore-icon{
-
-}
-.home-icon{
-  
 }
